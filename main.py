@@ -15,7 +15,7 @@ def run_web_server():
 
 # تشغيل البوت
 def run_bot():
-    TOKEN = os.environ.get("BOT_TOKEN")
+    TOKEN = "7296920591:AAERmzB4MBJvZGHnkJbM2Zwfu-jiyu7qEAY"
     application = ApplicationBuilder().token(TOKEN).build()
     # هنا تضع أوامر البوت الخاصة بك
     print("Bot is starting...")
